@@ -8,7 +8,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
         if (width >= 100) {
             clearInterval(interval);
             // Trigger the file download
-            window.location.href = 'AVIATOR_BOT.apk';
+            window.location.href = 'path_to_your_apk_file.apk';
         } else {
             width++;
             progressBar.style.width = width + '%';
